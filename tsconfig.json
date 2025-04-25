@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "strict": true,
+    "paths": {
+      "assets/*": ["./assets/*"],
+      "types/*": ["./types/*"],
+      "utils/*": ["./utils/*"],
+      "hooks/*": ["./hooks/*"],
+      "context/*": ["./context/*"],
+      "components/*": ["./components/*"],
+      "@/*": ["./*"]
+    },
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
+}
