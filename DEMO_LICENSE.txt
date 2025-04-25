@@ -1,0 +1,5 @@
+All rights reserved.
+
+This project is for demonstration purposes only. 
+No part of this repository may be used, copied, or modified for commercial or personal use 
+without explicit written permission from the author.
